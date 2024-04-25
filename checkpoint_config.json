@@ -1,0 +1,17 @@
+{
+  "sftp": {
+    "client": {
+      "mac_address": "00-00-00-00-00-00",
+      "remote_path": "C:\\path\\to\\remote",
+      "port": 22,
+      "username": "username",
+      "password": "password"
+    },
+    "server": {
+      "file_basename": "checkpoint",
+      "checkpoint_dir": "/linux/checkpoint/directory",
+      "source_dir": "/checkpoint/source/directory",
+      "unnecessary_files": ["/files/that/i/dont/need*"]
+    }
+  }
+}
