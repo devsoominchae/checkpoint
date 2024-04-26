@@ -4,7 +4,9 @@ This python code zips a files in a certain location and sends it through SFTP to
 
 ## Usage
 
-You can easily configure the config file for your purpose since it has intuitive names. The code is meant to run on Linux. When you are done configuring the config file and setting up ssh on both source device and target device to allow inbound and outbound traffic, run `main.py`
+You can easily configure the config file for your purpose since it has intuitive names. The code is meant to run on Linux. Configure the config file and set up ssh on both source device and target device to allow inbound and outbound traffic. Then, 
+`sudo chmod +x main.py`
+`main.py`
 
 ## Limitation
 
