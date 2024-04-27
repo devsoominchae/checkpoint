@@ -12,4 +12,4 @@ You can easily configure the config file for your purpose since it has intuitive
 
 ## Limitation
 
-This code is written assuming that you are  connected to the source device via ssh. 
+This code is written assuming that you are connected to the source device via ssh. The ARP table of the Linux machine should contain information about the destination machine. You can also ping the Linux machine.
